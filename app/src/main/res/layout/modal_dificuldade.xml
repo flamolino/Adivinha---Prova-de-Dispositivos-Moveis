@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="160dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="#D4F4E4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight=".8">
+        <TextView
+                android:text="Selecione uma dificuldade"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/txt_d_titulo"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight=".2">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <Button
+                    android:text="Fácil"
+                    android:backgroundTint="#EFE0E0"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" android:id="@+id/btn_d_facil" android:layout_weight="1"/>
+            <Button
+                    android:text="Normal"
+                    android:backgroundTint="#CFC0C0"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" android:id="@+id/btn_d_normal" android:layout_weight="1"/>
+            <Button
+                    android:text="Difícil"
+                    android:backgroundTint="#AFA0A0"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" android:id="@+id/btn_d_dificil" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

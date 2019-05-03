@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="#D4F4E4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight=".8">
+        <TextView
+                android:text="Faça um chute!"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/txt_c_titulo"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight=".2">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/edt_c_chute" android:layout_weight=".4"/>
+        <Button
+                android:text="Ok"
+                android:backgroundTint="#ADEDAD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/btn_c_ok" android:layout_weight=".6"/>
+    </LinearLayout>
+
+</LinearLayout>
